@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 	 /*background-image: url("../img/ultimate.jpg") !important;*/
 }
-video{
-	position: absolute;
- 	z-index: -1;
-	width: 100%;
+
 	 /*-webkit-filter: blur(4px);
     filter: blur(4px);*/
     /*-webkit-filter: hue-rotate(90deg); 
     filter: hue-rotate(90deg);*/
     /*-webkit-filter: grayscale(60%);
     filter: grayscale(60%);*/
-}
-
 nav ul a:hover {
 	background-color: #001329;
 }
@@ -36,9 +31,10 @@ nav .brand-logo {
 span{
 	font-family: 'Source Code Pro', monospace;
 }
-
-
-	
+.blur{
+	-webkit-filter: blur(4px);
+    filter: blur(4px);
+}
 
 .foto{
 	width: 50% !important;
