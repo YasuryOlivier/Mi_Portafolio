@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-	 /*background-image: url("../img/ultimate.jpg") !important;*/
-}
-
-	 /*-webkit-filter: blur(4px);
+	/*background-image: url("../img/ultimate.jpg") !important;*/
+	/*-webkit-filter: blur(4px);
     filter: blur(4px);*/
     /*-webkit-filter: hue-rotate(90deg); 
     filter: hue-rotate(90deg);*/
     /*-webkit-filter: grayscale(60%);
     filter: grayscale(60%);*/
+.bg-general{
+	background-color: #001329;
+}
 nav ul a:hover {
 	background-color: #001329;
 }
@@ -28,22 +29,21 @@ nav .brand-logo {
     padding: 0;
     white-space: nowrap;
 }
-span{
-	font-family: 'Source Code Pro', monospace;
+.font{
+	font-family: 'Source Code Pro', monospace !important;
 }
+
 .blur{
 	-webkit-filter: blur(4px);
     filter: blur(4px);
 }
 
 .foto{
-	width: 50% !important;
+	width: 70% !important;
+	border-radius: 100%;
 }
 .email{
 	width: 34% !important;
-}
-.font-1{
-	font-family: Sans-Serif;
 }
 
 .na{
@@ -68,7 +68,7 @@ span{
 .titulo{
 	font-size: 4.5em;	
 }
-.font{
+.font-1{
 	font-size: 2.5em;
 	margin-top: 5%;
 }
