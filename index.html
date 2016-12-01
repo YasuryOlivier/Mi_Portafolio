@@ -2,38 +2,42 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Yasury</title>
 		<link rel="shortcut icon" type="text/css" href="img/favicon/favicon.ico">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-		<link rel="stylesheet" type="text/css" href="fonts/roboto">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<body class="blanco bg-general">
 		<header>
 			<div class="navbar-fixed">
-				<nav><!--Inicia Nav light-green darken-1-->
-				  	<div class="nav-wrapper na">
-			     		<a href="#!" class="brand-logo"><span class="font">Yasury Olivier</span></a>
-			      		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			     		<ul class="right hide-on-med-and-down">
-			        		<li><a href="#quien">¿Quién soy?</a></li>
-			        		<li><a href="#habilidades">Habilidades</a></li>
-			        		<li><a href="#proyectos">Proyectos</a></li>
-			        		<li><a href="#contactame">Contactáme</a></li>
-			      		</ul>
-			      		<ul class="side-nav nb" id="mobile-demo">
-			      			<li><a href="#!quien"><span class="blanco">¿Quién soy?</span></a>
-			        		</li><br>
-				        	<li><a href="#!habil"><span class="blanco">Habilidades</span></a></li><br>
-				        	<li><a href="#!proyectos"><span class="blanco">Proyectos</span></a></li><br>
-				        	<li><a href="#!contactame"><span class="blanco">Contactáme</span></a></li>
-			  			</ul>
-					</div>
-				</nav>
+				<nav class="na">
+		            <div class="nav-wrapper">
+		            	<div class="row">
+		              		<a href="#!" class="brand-logo"><span class="font">Yasury Olivier</span></a>
+		              		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			                <ul class="right hide-on-med-and-down">
+			                   	<li><a href="#quien">Inicio</a></li>
+			                	<li><a href="#habilidades">Habilidades</a></li>
+			                	<li><a href="#proyectos">Proyectos</a></li>
+			                	<li><a href="#contactame">Contáctame</a><</li>
+			              	</ul>
+		        		</div>
+		        	</div>
+		    	</nav>
 			</div>
-		</header>
+		   <!--esta es la seccion menu movil-->
+	        <div class="na"><!--este bg es opcional revisar-->
+		        <ul class="side-nav na font" id="mobile-demo">
+		            <li><a href="#quien" class="waves-effect"><span class="blanco">Inicio</span></a></li><br>
+		            <li><a href="#habilidades" class="waves-effect"><span class="blanco"> Habilidades</span></a></li><br>
+		            <li><a href="#proyectos" class="waves-effect"><span class="blanco">Proyectos</span></a></li><br>
+		            <li><a href="#contactame" class="waves-effect"><span class="blanco">Contáctame</a></span></li>
+		         </ul>
+		    </div>
+        </header>   	
 		<section>
 			<div class="row na font"><!--inicia el slider-->
 				<div class="slider">
@@ -63,7 +67,7 @@
 		</section>	
 		<section>
 			<div class="row"><!--esta es la sección de ¿quién soy?-->
-				<a name="quien"></a>
+				<a id="quien"></a>
 				<div class="col s12 col m12">
 					<center>
 						<p class="font titulo">¿Quién soy?</p>
@@ -87,7 +91,7 @@
 		</section>
 		<section>
 			<div class="row"><!--esta es la sección de habilidades-->
-				<a name="habilidades"></a>
+				<a id="habilidades"></a>
 				<div class="col s12">
 					<center>
 						<p class="font titulo">Habilidades</p>
@@ -159,7 +163,7 @@
 		</section>
 		<section><!--seccion de proyectos-->
 			<div class="row">
-				<a name="proyectos"></a>
+				<a id="proyectos"></a>
 				<div class="col s12 col m12">
 					<center>
 						<p class="font titulo">Proyectos</p>
@@ -242,7 +246,7 @@
 	  		<div class="row">
 	  			<div class="col s12 col m12">
 	  				<center>
-	  					<a name="contactame"></a>
+	  					<a id="contactame"></a>
 	  					<p class="font titulo">Contáctame</p>
 	  					<div class="progress N/A transparent">
 	      					<div class="indeterminate"></div>
@@ -287,15 +291,8 @@
 	           	</div>
 	        </div>
 		</footer>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> 
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
 	    <script type="text/javascript" src="js/main.js"></script>
-	    <!--
-		<div class="panel">
-		</div>
-	    -->
-	    <!--<button class="btn btn-link pull">Click</button>-->
 	</body>
 </html>
