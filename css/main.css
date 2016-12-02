@@ -6,6 +6,9 @@
     filter: hue-rotate(90deg);*/
     /*-webkit-filter: grayscale(60%);
     filter: grayscale(60%);*/
+.derecha{
+	margin-right: 20px !important; 
+}
 .bg-general{
 	background-color: #B23A56;
 }
@@ -33,10 +36,21 @@ nav .brand-logo {
 .font{
 	font-family: 'Source Code Pro', monospace !important;
 }
+hr {
+    box-sizing: content-box;
+    height: 4px;
+    width: 7%;
+}
 
 .blur{
-	-webkit-filter: blur(4px);
-    filter: blur(4px);
+	-webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+.parallax-container{
+    position: relative;
+    overflow: hidden;
+    height: 680px !important;
+    z-index: -1
 }
 
 .foto{
@@ -60,17 +74,25 @@ nav .brand-logo {
 	background: #000;
 	opacity: .8;
 }
+
+
 .espacio{
 	margin-top:20%;
 }
 .blanco{
 	color: #fff;
 }
+.rosa{
+	color: #B23A56;
+}
+.verde{
+	color: #00bfa5 !important;
+}
 .titulo{
 	font-size: 2.5em;	
 }
 .font-1{
-	font-size: 2.9em;
+	font-size: 2.4em;
 
 }
 .font-2{
@@ -96,7 +118,7 @@ nav .brand-logo {
     height: 14px !important;
     display: block !important;
     width: 100% !important;
-    background-color: #acece6 !important;
+    background-color: #fff !important;
     border-radius: 2px !important;
     margin: 0.5rem 0 1rem 0;
     overflow: hidden !important;
@@ -105,6 +127,11 @@ nav .brand-logo {
 li{
 	display:inline-block;
 }
+
+.fondo{
+	background-image: url("../img/tile2.png");
+}
+
 @media screen and (max-width: 780px){
 	.titulo{
         font-size: 1.6em !important;
