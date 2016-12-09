@@ -46,12 +46,7 @@ hr {
 	-webkit-filter: blur(2px);
     filter: blur(2px);
 }
-.parallax-container{
-    position: relative;
-    overflow: hidden;
-    height: 680px !important;
-    z-index: -1
-}
+
 
 .foto{
 	width: 63% !important;
@@ -147,7 +142,7 @@ li{
 		width: 40% !important ;
 	}
 	.foto{
-		width: 100%;
+		width: 100% !important;
 	}
 }
 
@@ -174,7 +169,7 @@ li{
 		width: 100%;
 	}
 	.foto{
-		width: 100%;
+		width: 90%;
 	}
 	.divider{
 		width: 30%;
